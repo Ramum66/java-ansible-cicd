@@ -1,0 +1,5 @@
+---
+- name: Configuring java infrastructure
+  hosts: "{{ env }}"
+  roles:
+    - java-infra
